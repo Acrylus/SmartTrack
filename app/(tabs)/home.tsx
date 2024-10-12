@@ -4,7 +4,7 @@ import React from "react";
 const Home = () => {
     return (
         <View style={styles.container}>
-            <Text>Edit app/index.tsx to edit this screen.</Text>
+            <Text>ZAIIIREEEEEEENNNN</Text>
         </View>
     );
 };

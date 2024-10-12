@@ -82,7 +82,13 @@ export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
                             </View>
                         </View>
 
-                        <Text style={{ position: "absolute", bottom: -60 }}>
+                        <Text
+                            style={{
+                                position: "absolute",
+                                bottom: -60,
+                                color: isFocused ? "#000" : "transparent",
+                            }}
+                        >
                             {label}
                         </Text>
                     </TouchableOpacity>
